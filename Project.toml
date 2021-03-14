@@ -1,0 +1,13 @@
+name = "ccp"
+uuid = "1880a021-9b76-44e1-8361-1d464fa85ab0"
+authors = ["Jonathon Kocz"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
